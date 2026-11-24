@@ -25,7 +25,6 @@ body {
     position: relative;
 }
 
-/* Animated background */
 
 body::before {
     content: "";
@@ -59,7 +58,6 @@ body::before {
     }
 }
 
-/* Matrix canvas */
 
 #matrix {
     position: fixed;
@@ -71,7 +69,6 @@ body::before {
     pointer-events: none;
 }
 
-/* Glass */
 
 .glass {
     background: rgba(20, 5, 35, 0.65);
@@ -87,7 +84,6 @@ body::before {
     border-radius: 20px;
 }
 
-/* Header */
 
 .header {
     max-width: 1200px;
@@ -115,7 +111,6 @@ body::before {
     letter-spacing: 1px;
 }
 
-/* Hero */
 
 .hero {
     max-width: 900px;
@@ -183,7 +178,6 @@ body::before {
     font-family: Arial, sans-serif;
 }
 
-/* Cards */
 
 .cards {
     max-width: 1200px;
@@ -258,7 +252,6 @@ body::before {
     text-shadow: 0 0 15px var(--pink);
 }
 
-/* Footer */
 
 .footer {
     max-width: 1200px;
@@ -291,14 +284,12 @@ body::before {
     opacity: 0.5;
 }
 
-/* Selection */
 
 ::selection {
     background: var(--pink);
     color: white;
 }
 
-/* Scrollbar */
 
 ::-webkit-scrollbar {
     width: 8px;
@@ -317,7 +308,6 @@ body::before {
     border-radius: 10px;
 }
 
-/* Mobile */
 
 @media (max-width: 700px) {
     body {
@@ -354,7 +344,6 @@ body::before {
     }
 }
 
-/* Reduced motion */
 
 @media (prefers-reduced-motion: reduce) {
     *,
